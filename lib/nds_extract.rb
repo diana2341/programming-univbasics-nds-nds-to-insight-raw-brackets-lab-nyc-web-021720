@@ -1,6 +1,8 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
-require 'pp'# why can i not put total in beging why inb this section(when put in the beginning i got different numbers ?? 
+require 'pp'
+
+# why can i not put total in beging why in this section(when put in the beginning i got different numbers, so i moved it to row 11 and then it was right ?? 
 def directors_totals(nds)
 result = []
     r_index=0 
