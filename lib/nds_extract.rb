@@ -5,7 +5,7 @@ def directors_totals(nds)
 result = []
     r_index=0 
       while r_index < nds.length 
-       i=0
+     i=0 # why can i not put total in beging why inb this section(when put in the beginning i got different numbers ?? 
       total=0 
 
        n= nds[r_index][:name]
